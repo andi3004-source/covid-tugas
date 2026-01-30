@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>COVID-19 Indonesia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">🛡️ COVID-19 INDONESIA</div>
+  <nav>
+    <a href="#" class="nav active" data-page="beranda">Beranda</a>
+    <a href="#" class="nav" data-page="statistik">Statistik</a>
+    <a href="#" class="nav" data-page="pencegahan">Pencegahan</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <!-- BERANDA -->
+  <section id="beranda" class="page active">
+    <h1>Pantau Situasi COVID-19</h1>
+    <p class="subtitle">Data nasional COVID-19 Indonesia (simulasi statis)</p>
+
+    <div class="cards">
+      <div class="card blue">
+        <span>Terkonfirmasi</span>
+        <h2 id="positif">0</h2>
+      </div>
+
+      <div class="card green">
+        <span>Sembuh</span>
+        <h2 id="sembuh">0</h2>
+      </div>
+
+      <div class="card red">
+        <span>Meninggal</span>
+        <h2 id="meninggal">0</h2>
+      </div>
+    </div>
+
+    <p class="source">Sumber data: Kementerian Kesehatan RI</p>
+  </section>
+
+  <!-- STATISTIK -->
+  <section id="statistik" class="page">
+    <h1>Statistik COVID-19</h1>
+
+    <div class="stats-grid">
+      <div class="stat-box">Kasus Aktif<br><strong>10.480</strong></div>
+      <div class="stat-box">Tingkat Kesembuhan<br><strong>97,4%</strong></div>
+      <div class="stat-box">Tingkat Kematian<br><strong>2,6%</strong></div>
+    </div>
+  </section>
+
+  <!-- PENCEGAHAN -->
+  <section id="pencegahan" class="page">
+    <h1>Pencegahan COVID-19</h1>
+
+    <div class="prevent-grid">
+      <div class="prevent-card">😷 Gunakan masker</div>
+      <div class="prevent-card">🧼 Cuci tangan</div>
+      <div class="prevent-card">↔️ Jaga jarak</div>
+      <div class="prevent-card">💉 Vaksinasi</div>
+      <div class="prevent-card">💨 Hindari kerumunan</div>
+      <div class="prevent-card">🏠 Istirahat bila sakit</div>
+    </div>
+  </section>
+
+</main>
+
+<footer>© 2026 Informasi COVID-19 Indonesia</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
